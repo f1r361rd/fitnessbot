@@ -1,0 +1,14 @@
+{
+    "morning": {
+        "increase": ["a Sandwich with mint chutney", "2 idlis with sambar", " 2 egg with whole grain bread"],
+        "decrease": ["a fruit of your choice with 3 to 4 mixed seeds such as watermealon"]
+    },
+    "noon": {
+        "increase": ["2 multigrain roti"," 1 Katori red"," brown rice and 1 bowl dal","pulses like rajma"],
+        "decrease": ["2 multigrain roti + 1 bowl vegetable subji "," non-veg subji + 1 bowl boiled pulse chaat"]
+    },
+    "evening": {
+        "increase": ["1 bowl vegetable brown rice basmati chicken biryani/ vegetable pulao + 1 bowl vegetable raita + 1 bowl vegetable "," chicken salad of choice"],
+        "decrease": ["1 bowl chicken gravy + 1 bowl rice / 2 multigrain rotis + salad + 1 bowl low-fat curd"]
+    }
+}
