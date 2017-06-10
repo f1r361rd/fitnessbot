@@ -4,10 +4,8 @@
   "description": "A simple chatbot with help of api.ai",
   "main": "src/index.js",
   "scripts": {
-     "start": "nodemon --exec babel-node -- src/index.js",
-    "prod": "node lib/index.js",
-    "lint": "eslint src/",
-    "build": "babel src -d lib"
+     "start": "node src/index.js"
+  
   },
   "author": "",
   "license": "ISC",
