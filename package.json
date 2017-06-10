@@ -2,7 +2,7 @@
   "name": "fitness_bot",
   "version": "1.0.0",
   "description": "A simple chatbot with help of api.ai",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
      "start": "nodemon --exec babel-node -- src/index.js",
     "prod": "node lib/index.js",
