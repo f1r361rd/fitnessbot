@@ -4,15 +4,39 @@
   "description": "A simple chatbot with help of api.ai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "nodemon --exec babel-node -- src/index.js",
+    "prod": "node lib/index.js",
+    "lint": "eslint src/",
+    "build": "babel src -d lib"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "babel-polyfill": "^6.22.0",
     "agenda": "^0.9.1",
     "apiai": "^4.0.2",
     "body-parser": "^1.17.2",
     "express": "^4.15.3",
     "request": "^2.81.0"
-  }
+  },
+  "devDependencies": {
+     "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "babel-register": "^6.11.5",
+    "eslint": "^3.2.0",
+    "eslint-config-zavatta": "^4.2.0",
+    "eslint-plugin-import": "^1.6.1",
+    "nodemon": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/f1r361rd/fitnessbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/f1r361rd/fitnessbot/issues"
+  },
+  "homepage": "https://github.com/f1r361rd/fitnessbot#readme"
 }
