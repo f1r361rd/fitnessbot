@@ -15,6 +15,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.get('/', verificationController);
 app.post('/', messageWebhookController);
 app.post('/ai',apiController);
-app.listen(5000,()=>{
-    console.log("Listening @ port 5000");
+app.listen(8080,()=>{
+    console.log("Listening @ port 8080");
 });
